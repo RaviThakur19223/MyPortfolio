@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="shortcut icon" href="/assets/images/portfolio.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Let's Connect</h2>
+          <p>
+            Have a question, collaboration idea, or just want to say hello? Drop
+            me a message below.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Email:</strong> ravi.thakur19223@gmail.com</li>
+            <li>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/RaviThakur19223"
+                >ravithakur19223</a
+              >
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/ravithakur19223/"
+                >ravithakur19223</a
+              >
+            </li>
+            <li>
+              <strong>Instagram:</strong>
+              <a href="https://www.instagram.com/ravee.thakur">@ravee.thakur</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mrbqwdwo" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2025 Portfolio - Created by Ravi Thakur - All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>
